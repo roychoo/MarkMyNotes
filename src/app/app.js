@@ -1,10 +1,11 @@
-angular.module( 'ngBoilerplate', [
+angular.module( 'markMyNotes', [
   'templates-app',
   'templates-common',
   'ngBoilerplate.home',
   'ngBoilerplate.about',
   'ui.state',
-  'ui.route'
+  'ui.route',
+  'swipe'
 ])
 
 .config( function myAppConfig ( $stateProvider, $urlRouterProvider ) {
